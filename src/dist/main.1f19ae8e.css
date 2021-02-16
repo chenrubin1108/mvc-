@@ -1,0 +1,74 @@
+.cheng {
+    width: 80vw;
+    height: 80vh;
+}
+.square {
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.square.active {
+    transition: all 1s;
+    transform: translateX(100px);
+}
+.chu {
+    width: 80vw;
+    height: 80vh;
+}
+.circle {
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vw;
+    border-radius: 50%;
+
+}
+.jia {
+    width: 80vw;
+    height: 80vh;
+}
+
+.jian {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-wrap:wrap;
+}
+.jian-1,
+.jian-2 {
+  width: 500px;
+  height: 50%;
+}
+.jian-1 {
+  border: 1px solid red;
+}
+.jian-2 {
+  border: 1px solid blue;
+}
+ .tab-bar > li {
+  border: 1px solid grey;
+  width: 100%;
+}
+ .tab-bar > li.selected {
+  background: rgb(253, 221, 155);
+  color: white;
+}
+.tab-bar {
+    min-width: 100%;
+}
+  
+ .jian-1  {
+  display: none;
+}
+.jian-2  {
+  display: none;
+}
+.active {
+  display: block;
+  background-color: red;
+  color: white;
+}
+
+
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

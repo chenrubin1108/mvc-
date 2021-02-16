@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="author" content="陈如斌" />
+    <title></title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="global.css" />
+    <style>
+      .jia,
+      .jian,
+      .cheng,
+      .chu {
+        width: 500px;
+        height: 500px;
+        border: 1px solid black;
+      }
+      .box {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="jia">
+        <div>
+          <span id="number">100</span>
+        </div>
+        <div>
+          <button id="jia">+1</button>
+          <button id="jian">-1</button>
+          <button id="cheng">*2</button>
+          <button id="chu">/2</button>
+        </div>
+      </div>
+      <div class="jian">
+        <div class="tab-content">
+          <div class="jian-1">
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
+          </div>
+          <div class="jian-2">
+            <ul>
+              <li>内容1</li>
+              <li>内容2</li>
+              <li>内容3</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-bar">
+            <li class="one"><p>1111</p></li>
+            <li class="two"><p>2222</p></li>
+        </div>
+      </div>
+      <div class="cheng">
+        <div class="square">
+
+        </div>
+      </div>
+      <div class="chu">
+        <div class="circle active"></div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
